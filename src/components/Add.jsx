@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import Navigation from './Navigation'
+import axios from 'axios'
 
 const Add = () => {
+    
 
     const [input,change]=useState(
         {
@@ -19,7 +21,13 @@ college: ""
 
     const readvalues=()=>{
         console.log(input)
-    }
+        axios.post('http://18.144.111.41/student_api.php',input).then((response)=>
+            {
+            alert ("Added Succesfully")
+        }).catch()
+
+        }
+    
   return (
     <div style={{ 
         backgroundImage:"url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMteGUFDVXr49C_h9ei2hVPcBn0zd29mgEa15Oz88K4_pXQQBMIbZ2y-qt2eDv5w8QCOA&usqp=CAU')",
