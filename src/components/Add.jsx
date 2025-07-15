@@ -3,7 +3,7 @@ import Navigation from './Navigation'
 
 const Add = () => {
   return (
-    <div style={{
+    <div style={{ 
         backgroundImage:"url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMteGUFDVXr49C_h9ei2hVPcBn0zd29mgEa15Oz88K4_pXQQBMIbZ2y-qt2eDv5w8QCOA&usqp=CAU')",
         backgroundSize:'cover',
         backgroundRepeat:'center',

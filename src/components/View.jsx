@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Navigation from './Navigation';
-import axios from 'axios';
+import axios from 'axios'; 
 
 const View = () => {
     const [data, setData] = useState(

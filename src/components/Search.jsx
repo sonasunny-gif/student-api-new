@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from './Navigation'
 
 const Search = () => {
-  return (
+  return ( 
     <div style={{
         backgroundImage:"url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9vuano0IEH7ETWWlHTkjiXxYvy7GKpi98IVyQ1mczQgoBaktFYcsahmJcPqlXrT-n1I&usqp=CAU')",
         backgroundSize:'cover',

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-const Delete = () => {
+const Delete = () => { 
   return (
     <div style={{
         backgroundImage:"url('https://media.istockphoto.com/id/1459373176/vector/abstract-defocused-background-spring-summer-sea.jpg?s=612x612&w=0&k=20&c=P6D1VrXeeKsJfyKzlJeIqxyNXkeYtMb6C1mW6p68xro=')",
