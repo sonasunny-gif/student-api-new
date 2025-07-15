@@ -3,7 +3,13 @@ import Navigation from './Navigation'
 
 const Search = () => {
   return (
-    <div>
+    <div style={{
+        backgroundImage:"url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9vuano0IEH7ETWWlHTkjiXxYvy7GKpi98IVyQ1mczQgoBaktFYcsahmJcPqlXrT-n1I&usqp=CAU')",
+        backgroundSize:'cover',
+        backgroundRepeat:'center',
+        minHeight:'100vh'
+    }}
+    >
         <Navigation/>
         <div className="container">
             <div className="row">
